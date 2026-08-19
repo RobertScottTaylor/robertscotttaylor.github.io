@@ -82,14 +82,28 @@
   }
 
   .meta{
-    font-family:"IBM Plex Mono",ui-monospace,monospace;
-    font-size:0.75rem;
-    letter-spacing:0.04em;
+    font-size:0.94rem;
     color:var(--ink-soft);
     margin:0 0 0.75rem;
   }
 
   ul{margin:0 0 1.15rem;padding-left:1.1rem;}
+
+  /* ---- CV entries ---- */
+
+  .entry{margin-bottom:1.5rem;}
+  .entry:last-child{margin-bottom:0;}
+
+  .entry-title{
+    line-height:1.4;
+    margin-bottom:0.15rem;
+  }
+
+  .entry-detail{
+    font-size:0.94rem;
+    line-height:1.5;
+    color:var(--ink-soft);
+  }
   li{margin-bottom:0.35rem;}
 
   /* ---- links ---- */
